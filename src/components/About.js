@@ -45,7 +45,9 @@ const About = () => {
     <Container>
       <Title>About Me</Title>
       <Content>
-        I am a passionate Java Developer with a strong interest in cloud computing and web development.
+        I am a passionate java Developer with a strong understanding of core Java concepts and object-oriented programming principles.
+Eager to learn and contribute to a fast-paced development environment
+.
       </Content>
       <ContactInfo>
         <ContactItem>

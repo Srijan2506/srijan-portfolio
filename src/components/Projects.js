@@ -59,7 +59,7 @@ const Projects = () => (
       <ProjectCard>
         <ProjectTitle>Critic’s Corner: A Movie Review Application</ProjectTitle>
         <ProjectDescription>
-        Critic's Corner is a web-based application designed for movie enthusiasts to discover, review, and discuss their favorite films. The platform allows users to browse a curated list of movies, post reviews, and rate films. Additionally, users can search movie trailers to get a quick preview before diving in.
+          Critic's Corner is a web-based application designed for movie enthusiasts to discover, review, and discuss their favorite films. The platform allows users to browse a curated list of movies, post reviews, and rate films. Additionally, users can search movie trailers to get a quick preview before diving in.
         </ProjectDescription>
         <ShimmerButton href="https://github.com/Srijan2506/Critic-s-Corner-A-Movie-Review-Application" className="shadow-2xl">
           <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
@@ -68,11 +68,22 @@ const Projects = () => (
         </ShimmerButton>
       </ProjectCard>
       <ProjectCard>
-        <ProjectTitle>watchlist Application</ProjectTitle>
+        <ProjectTitle>Watchlist Application</ProjectTitle>
         <ProjectDescription>
-        Designed and developed a user-friendly watchlist application for movie enthusiasts. (Create, Read, Update) operations using Spring Boot, Users can add, manage, and organize their desired movies to watch.nhances user experience by providing a centralized platform for movie tracking.
+          Designed and developed a user-friendly watchlist application for movie enthusiasts. (Create, Read, Update) operations using Spring Boot, Users can add, manage, and organize their desired movies to watch. Enhances user experience by providing a centralized platform for movie tracking.
         </ProjectDescription>
         <ShimmerButton href="https://github.com/Srijan2506/WatchlistApplication" className="shadow-2xl">
+          <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
+            View on GitHub
+          </span>
+        </ShimmerButton>
+      </ProjectCard>
+      <ProjectCard>
+        <ProjectTitle>Student Management System</ProjectTitle>
+        <ProjectDescription>
+        Designed and implemented a comprehensive Student Management System with CRUD operations with the help of Java, SpringBoot, MySQL, Thymeleaf, HTML
+        </ProjectDescription>
+        <ShimmerButton href="https://github.com/Srijan2506/Student-Management-system" className="shadow-2xl">
           <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
             View on GitHub
           </span>

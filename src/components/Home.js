@@ -1,31 +1,26 @@
-// src/components/Home.js
 import React from 'react';
-import styled from 'styled-components';
-import ShimmerButton from './ShimmerButton';
+import './Home.css'; // Import the CSS file
+import IconCloud from './IconCloud';
 
-const Container = styled.div`
-  padding: 50px;
-  text-align: center;
-  max-width: 1000px;
-  margin: auto;
-`;
+const slugs = [
+  // ... (same array as before)
+];
 
-const Title = styled.h1`
-  font-size: 2.5em;
-  margin-bottom: 30px;
-  color: #333;
-`;
-
-const Home = () => (
-  <Container>
-    <Title>Hi I'm Srijan Shukla 
-    Welcome to My Portfolio</Title>
-    <ShimmerButton href="#projects" className="shadow-2xl">
-      <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
-        View My Projects
-      </span>
-    </ShimmerButton>
-  </Container>
-);
+const Home = () => {
+  return (
+    <div className="home-container">
+      <div className="intro">
+        <h1>Hi, I'm Srijan Shukla <span role="img" aria-label="wave">👋</span></h1>
+        <p>I'm a Aspiring Java Devloper with an interest in <strong>Web Devlopment</strong>.</p>
+        <div className="buttons">
+        
+        </div>
+      </div>
+      <div className="icon-cloud-container">
+        <IconCloud iconSlugs={slugs} />
+      </div>
+    </div>
+  );
+};
 
 export default Home;
